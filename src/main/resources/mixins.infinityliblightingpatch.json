@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "infinityliblightingpatch.mixin",
+  "refmap": "mixins.infinityliblightingpatch.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "mixins": [
+    "InfinityLibLightingPatchMixin"
+  ],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}
